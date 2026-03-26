@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Crypto Profit Calculator – Free Cryptocurrency Profit/Loss Calculator',
+  title: 'Crypto Profit Calculator ??Free Cryptocurrency Profit/Loss Calculator',
   description: 'Calculate cryptocurrency profit and loss instantly. Free crypto profit calculator for Bitcoin, Ethereum, and 1000+ cryptocurrencies.',
   metadataBase: new URL('https://crypto-profit-calculator.vercel.app'),
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://crypto-profit-calculator.vercel.app',
     siteName: 'Crypto Profit Calculator',
-    title: 'Crypto Profit Calculator – Free Cryptocurrency Profit/Loss Calculator',
+    title: 'Crypto Profit Calculator ??Free Cryptocurrency Profit/Loss Calculator',
     description: 'Calculate cryptocurrency profit and loss instantly. Free crypto profit calculator for Bitcoin, Ethereum, and 1000+ cryptocurrencies.',
     images: [
       {
@@ -62,6 +62,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="hsjncRi9cl3tz3Otd6SJKurSt_V1bZ0AKO-bdWIGeHM" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#7c5cbf" />
