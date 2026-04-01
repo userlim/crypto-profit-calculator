@@ -4,7 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Crypto Profit Calculator ??Free Cryptocurrency Profit/Loss Calculator',
   description: 'Calculate cryptocurrency profit and loss instantly. Free crypto profit calculator for Bitcoin, Ethereum, and 1000+ cryptocurrencies.',
-  metadataBase: new URL('https://crypto-profit-calculator.vercel.app'),
+  metadataBase: new URL('https://bitcoin-profit-calculator.vercel.app'),
   keywords: [
     'crypto profit calculator',
     'bitcoin profit calculator',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://crypto-profit-calculator.vercel.app',
+    url: 'https://bitcoin-profit-calculator.vercel.app',
     siteName: 'Crypto Profit Calculator',
     title: 'Crypto Profit Calculator ??Free Cryptocurrency Profit/Loss Calculator',
     description: 'Calculate cryptocurrency profit and loss instantly. Free crypto profit calculator for Bitcoin, Ethereum, and 1000+ cryptocurrencies.',
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://crypto-profit-calculator.vercel.app',
+    canonical: 'https://bitcoin-profit-calculator.vercel.app',
   },
 };
 

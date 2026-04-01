@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: [],
     },
-    sitemap: 'https://crypto-profit-calculator.vercel.app/sitemap.xml',
+    sitemap: 'https://bitcoin-profit-calculator.vercel.app/sitemap.xml',
   };
 }
