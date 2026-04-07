@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Crypto Profit Calculator ??Free Cryptocurrency Profit/Loss Calculator',
-  description: 'Calculate cryptocurrency profit and loss instantly. Free crypto profit calculator for Bitcoin, Ethereum, and 1000+ cryptocurrencies.',
+  title: 'Crypto Profit Calculator (Free, 2026) – Bitcoin & Altcoin ROI',
+  description: 'Calculate crypto profits instantly. Free 2026 calculator for Bitcoin, Ethereum & 1000+ coins. See your ROI, gains, and investment returns in real-time.',
   metadataBase: new URL('https://bitcoin-profit-calculator.vercel.app'),
   keywords: [
     'crypto profit calculator',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://bitcoin-profit-calculator.vercel.app',
     siteName: 'Crypto Profit Calculator',
-    title: 'Crypto Profit Calculator ??Free Cryptocurrency Profit/Loss Calculator',
-    description: 'Calculate cryptocurrency profit and loss instantly. Free crypto profit calculator for Bitcoin, Ethereum, and 1000+ cryptocurrencies.',
+    title: 'Crypto Profit Calculator (Free, 2026) – Bitcoin & Altcoin ROI',
+    description: 'Calculate crypto profits instantly. Free 2026 calculator for Bitcoin, Ethereum & 1000+ coins. See your ROI, gains, and investment returns in real-time.',
     images: [
       {
         url: '/og-image.png',
@@ -88,6 +88,15 @@ export default function RootLayout({
       <body>
         {children}
         <footer className="border-t border-gray-200 py-4 text-center text-sm text-gray-400">
+          
+            <div className="flex flex-wrap justify-center gap-4 mb-3">
+              <span className="text-xs text-gray-400 font-semibold">Related Free Tools:</span>
+                <a href="https://currency-exchange-calculator-wheat.vercel.app" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-xs">Currency Converter</a>
+                <a href="https://gold-price-today-calculator.vercel.app" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-xs">Gold Price Calculator</a>
+                <a href="https://inflation-rate-calculator.vercel.app" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-xs">Inflation Calculator</a>
+                <a href="https://tariff-calculator-app.vercel.app" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-xs">Tariff Calculator</a>
+                <a href="https://utilicalc.vercel.app" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-xs">UtiliCalc</a>
+            </div>
           <div className="flex flex-wrap justify-center gap-4 mb-3">
             <a href="/privacy-policy" className="text-blue-600 hover:text-blue-800 text-xs">Privacy Policy</a>
             <a href="/terms" className="text-blue-600 hover:text-blue-800 text-xs">Terms of Service</a>

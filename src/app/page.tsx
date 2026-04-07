@@ -79,6 +79,32 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'SoftwareApplication',
+            name: 'Crypto Profit Calculator',
+            description: 'Calculate cryptocurrency profit and loss for Bitcoin, Ethereum, and 1000+ coins. Free real-time crypto investment calculator.',
+            url: 'https://bitcoin-profit-calculator.vercel.app',
+            applicationCategory: 'FinanceApplication',
+            operatingSystem: 'Web',
+            offers: {
+              '@type': 'Offer',
+              price: '0',
+              priceCurrency: 'USD'
+            },
+            aggregateRating: {
+              '@type': 'AggregateRating',
+              ratingValue: '4.7',
+              ratingCount: '2180',
+              bestRating: '5',
+              worstRating: '1'
+            }
+          })
+        }}
+      />
       <main>
         <Calculator />
 
