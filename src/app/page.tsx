@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import Calculator from './calculator';
 
 export const metadata: Metadata = {
-  title: 'Crypto Profit Calculator – Free Cryptocurrency Profit/Loss Calculator',
-  description: 'Calculate cryptocurrency profit and loss instantly. Free crypto profit calculator for Bitcoin, Ethereum, and 1000+ cryptocurrencies. SEO-optimized for highest visibility.',
+  title: 'Free Crypto Profit Calculator (2026) – Bitcoin & Altcoin Gains Tracker',
+  description: 'Calculate cryptocurrency profit and loss instantly. Supports Bitcoin, Ethereum, and 10,000+ coins. Free, accurate, includes fee calculation — no signup needed.',
   keywords: [
     'crypto profit calculator',
     'bitcoin profit calculator',
