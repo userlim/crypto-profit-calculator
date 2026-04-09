@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: [],
+      disallow: ['/api/'],
     },
     sitemap: 'https://bitcoin-profit-calculator.vercel.app/sitemap.xml',
   };
