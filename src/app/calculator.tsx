@@ -460,7 +460,7 @@ export default function Calculator() {
               onChange={(e) =>
                 handleInputChange('language', e.target.value)
               }
-              className="tool-input"
+              className="input"
               style={{ width: '200px' }}
             >
               <option value="en">English</option>
@@ -492,7 +492,7 @@ export default function Calculator() {
                   handleInputChange('crypto', e.target.value);
                   setCustomCrypto('');
                 }}
-                className="tool-input"
+                className="input"
               >
                 {CRYPTOCURRENCIES.map((c) => (
                   <option key={c.symbol} value={c.symbol}>
@@ -507,7 +507,7 @@ export default function Calculator() {
                   placeholder={t.enterCustom}
                   value={customCrypto}
                   onChange={(e) => setCustomCrypto(e.target.value)}
-                  className="tool-input mt-2"
+                  className="input mt-2"
                 />
               )}
             </div>
@@ -523,7 +523,7 @@ export default function Calculator() {
                 onChange={(e) =>
                   handleInputChange('buyPrice', e.target.value)
                 }
-                className="tool-input"
+                className="input"
                 step="0.01"
               />
             </div>
@@ -539,7 +539,7 @@ export default function Calculator() {
                 onChange={(e) =>
                   handleInputChange('sellPrice', e.target.value)
                 }
-                className="tool-input"
+                className="input"
                 step="0.01"
               />
             </div>
@@ -555,7 +555,7 @@ export default function Calculator() {
                 onChange={(e) =>
                   handleInputChange('investmentAmount', e.target.value)
                 }
-                className="tool-input"
+                className="input"
                 step="0.01"
               />
             </div>
@@ -571,7 +571,7 @@ export default function Calculator() {
                 onChange={(e) =>
                   handleInputChange('quantity', e.target.value)
                 }
-                className="tool-input"
+                className="input"
                 step="0.00000001"
               />
             </div>
@@ -587,7 +587,7 @@ export default function Calculator() {
                 onChange={(e) =>
                   handleInputChange('feePercentage', e.target.value)
                 }
-                className="tool-input"
+                className="input"
                 step="0.01"
               />
             </div>

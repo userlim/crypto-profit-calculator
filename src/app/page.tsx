@@ -189,48 +189,44 @@ export default function Home() {
         </section>
       
       {/* Extended Content Section for SEO depth */}
-      <section id="content-depth-section" className="mt-12 max-w-3xl mx-auto px-4">
-        <h2 className="text-2xl font-bold mb-6">Complete Guide</h2>
+      <section id="content-depth-section" className="mt-20 max-w-3xl mx-auto px-6 relative z-[1]">
+        <h2 className="text-h2 mb-6 text-[var(--text-primary)]">Complete Guide</h2>
         
             <div className="mb-6">
-              <h3 className="text-lg font-semibold mb-2">How Cryptocurrency Profit and Loss Works</h3>
-              <p className="text-gray-400 dark:text-gray-400 leading-relaxed text-sm" dangerouslySetInnerHTML={{ __html: `Calculating crypto profit involves more than simple buy-sell arithmetic. Your actual profit equals (Sell Price × Quantity Sold) − (Buy Price × Quantity Bought) − Total Fees. However, real-world crypto trading introduces complexities like multiple buy-ins at different prices, partial sells, token swaps, staking rewards, and airdrops. Our calculator simplifies this process by handling the core computation instantly.` }} />
+              <h3 className="text-h3 mb-2 text-[var(--text-primary)]">How Cryptocurrency Profit and Loss Works</h3>
+              <p className="text-[var(--text-secondary)] leading-relaxed text-sm" dangerouslySetInnerHTML={{ __html: `Calculating crypto profit involves more than simple buy-sell arithmetic. Your actual profit equals (Sell Price × Quantity Sold) − (Buy Price × Quantity Bought) − Total Fees. However, real-world crypto trading introduces complexities like multiple buy-ins at different prices, partial sells, token swaps, staking rewards, and airdrops. Our calculator simplifies this process by handling the core computation instantly.` }} />
             </div>
             <div className="mb-6">
-              <h3 className="text-lg font-semibold mb-2">Understanding Trading Fees and Their Impact</h3>
-              <p className="text-gray-400 dark:text-gray-400 leading-relaxed text-sm" dangerouslySetInnerHTML={{ __html: `Exchange fees significantly impact your bottom line, especially for frequent traders. Most centralized exchanges charge 0.1% to 0.5% per trade (maker/taker fees). There are also withdrawal fees, network (gas) fees for on-chain transactions, and spread costs on DEXs (decentralized exchanges). On a $10,000 trade with 0.25% fees on both buy and sell, you lose $50 in fees alone. Our calculator lets you factor in these costs for accurate profit estimates.` }} />
+              <h3 className="text-h3 mb-2 text-[var(--text-primary)]">Understanding Trading Fees and Their Impact</h3>
+              <p className="text-[var(--text-secondary)] leading-relaxed text-sm" dangerouslySetInnerHTML={{ __html: `Exchange fees significantly impact your bottom line, especially for frequent traders. Most centralized exchanges charge 0.1% to 0.5% per trade (maker/taker fees). There are also withdrawal fees, network (gas) fees for on-chain transactions, and spread costs on DEXs (decentralized exchanges). On a $10,000 trade with 0.25% fees on both buy and sell, you lose $50 in fees alone. Our calculator lets you factor in these costs for accurate profit estimates.` }} />
             </div>
             <div className="mb-6">
-              <h3 className="text-lg font-semibold mb-2">Dollar-Cost Averaging (DCA) vs. Lump Sum Investing</h3>
-              <p className="text-gray-400 dark:text-gray-400 leading-relaxed text-sm" dangerouslySetInnerHTML={{ __html: `Two popular crypto investment strategies are dollar-cost averaging and lump-sum investing. DCA involves investing fixed amounts at regular intervals, reducing the impact of volatility. Research from Vanguard suggests lump-sum investing outperforms DCA approximately two-thirds of the time in traditional markets, but crypto's extreme volatility makes DCA a safer approach for risk-averse investors. Use our calculator to compare hypothetical returns from both strategies.` }} />
+              <h3 className="text-h3 mb-2 text-[var(--text-primary)]">Dollar-Cost Averaging (DCA) vs. Lump Sum Investing</h3>
+              <p className="text-[var(--text-secondary)] leading-relaxed text-sm" dangerouslySetInnerHTML={{ __html: `Two popular crypto investment strategies are dollar-cost averaging and lump-sum investing. DCA involves investing fixed amounts at regular intervals, reducing the impact of volatility. Research from Vanguard suggests lump-sum investing outperforms DCA approximately two-thirds of the time in traditional markets, but crypto's extreme volatility makes DCA a safer approach for risk-averse investors. Use our calculator to compare hypothetical returns from both strategies.` }} />
             </div>
             <div className="mb-6">
-              <h3 className="text-lg font-semibold mb-2">Tax Implications of Crypto Trading</h3>
-              <p className="text-gray-400 dark:text-gray-400 leading-relaxed text-sm" dangerouslySetInnerHTML={{ __html: `In most jurisdictions, cryptocurrency gains are taxable events. In the US, the IRS treats crypto as property — short-term gains (assets held less than one year) are taxed as ordinary income (10-37%), while long-term gains benefit from lower capital gains rates (0%, 15%, or 20%). Other tax events include receiving mining/staking rewards, airdrops, and crypto-to-crypto swaps. Always consult a tax professional for advice specific to your situation.` }} />
+              <h3 className="text-h3 mb-2 text-[var(--text-primary)]">Tax Implications of Crypto Trading</h3>
+              <p className="text-[var(--text-secondary)] leading-relaxed text-sm" dangerouslySetInnerHTML={{ __html: `In most jurisdictions, cryptocurrency gains are taxable events. In the US, the IRS treats crypto as property — short-term gains (assets held less than one year) are taxed as ordinary income (10-37%), while long-term gains benefit from lower capital gains rates (0%, 15%, or 20%). Other tax events include receiving mining/staking rewards, airdrops, and crypto-to-crypto swaps. Always consult a tax professional for advice specific to your situation.` }} />
             </div>
             <div className="mb-6">
-              <h3 className="text-lg font-semibold mb-2">Risk Management in Crypto Investing</h3>
-              <p className="text-gray-400 dark:text-gray-400 leading-relaxed text-sm" dangerouslySetInnerHTML={{ __html: `Successful crypto investing requires disciplined risk management. Common strategies include position sizing (never investing more than you can afford to lose), setting stop-loss orders, diversifying across multiple assets, and maintaining a portion of your portfolio in stablecoins or fiat. Our profit calculator helps you model different scenarios — including worst-case outcomes — to make informed decisions before committing capital.` }} />
+              <h3 className="text-h3 mb-2 text-[var(--text-primary)]">Risk Management in Crypto Investing</h3>
+              <p className="text-[var(--text-secondary)] leading-relaxed text-sm" dangerouslySetInnerHTML={{ __html: `Successful crypto investing requires disciplined risk management. Common strategies include position sizing (never investing more than you can afford to lose), setting stop-loss orders, diversifying across multiple assets, and maintaining a portion of your portfolio in stablecoins or fiat. Our profit calculator helps you model different scenarios — including worst-case outcomes — to make informed decisions before committing capital.` }} />
             </div>
       </section>
       </main>
     
       {/* Keyword-Optimized Content */}
-      <section id="keyword-seo-section" className="mt-8 max-w-3xl mx-auto px-4">
-        <p className="text-sm text-gray-400 leading-relaxed">
+      <section id="keyword-seo-section" className="mt-12 max-w-3xl mx-auto px-6 pb-16 relative z-[1]">
+        <p className="text-sm text-[var(--text-muted)] leading-relaxed">
           Track your cryptocurrency gains with our free crypto profit calculator. Perfect for Bitcoin profit calculations, Ethereum ROI tracking, and altcoin portfolio analysis. Calculate your crypto gains, model dollar-cost averaging scenarios, and estimate your bitcoin investment return — all in one tool.
         </p>
 <div className="mt-3 flex flex-wrap gap-2">
-          <a href="https://gold-price-today-calculator.vercel.app" className="text-xs text-blue-400 hover:underline">Gold Price Calculator →</a>
-          <a href="https://currency-exchange-calculator-wheat.vercel.app" className="text-xs text-blue-400 hover:underline">Currency Converter →</a>
-          <a href="https://tariff-calculator-app.vercel.app" className="text-xs text-blue-400 hover:underline">Tariff Calculator →</a>
+          <a href="https://gold-price-today-calculator.vercel.app" className="text-xs text-[var(--accent)] hover:underline opacity-70 hover:opacity-100">Gold Price Calculator →</a>
+          <a href="https://currency-exchange-calculator-wheat.vercel.app" className="text-xs text-[var(--accent)] hover:underline opacity-70 hover:opacity-100">Currency Converter →</a>
+          <a href="https://tariff-calculator-app.vercel.app" className="text-xs text-[var(--accent)] hover:underline opacity-70 hover:opacity-100">Tariff Calculator →</a>
         </div>
 
       </section>
       </>
   );
-  other: {
-    'article:published_time': '2025-01-15T00:00:00Z',
-    'article:modified_time': '2026-04-10T00:00:00Z',
-  },
 }
