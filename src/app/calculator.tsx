@@ -653,7 +653,7 @@ export default function Calculator() {
               </div>
             </div>
 
-            <div className="mt-6 bg-gradient-to-r from-[#7c5cbf] to-[#b49ee8] rounded-xl p-6 text-white">
+            <div className="mt-6 bg-gradient-to-r from-[#7c5cbf] to-[#b49ee8] rounded-xl p-6 text-[#191F28]">
               <p className="text-sm opacity-90 mb-2">{t.netProfit}</p>
               <p className="text-4xl font-extrabold">${results.netProfit}</p>
             </div>
