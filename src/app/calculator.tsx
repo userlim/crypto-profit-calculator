@@ -441,7 +441,7 @@ export default function Calculator() {
   if (!mounted) return null;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#fefcff] via-[#f5e6ff] to-[#fefcff] py-8 px-4">
+    <div className="min-h-screen py-8 px-4">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-4xl md:text-5xl font-extrabold text-[#2d2640] mb-2">
@@ -460,7 +460,7 @@ export default function Calculator() {
               onChange={(e) =>
                 handleInputChange('language', e.target.value)
               }
-              className="input"
+              className="tool-input"
               style={{ width: '200px' }}
             >
               <option value="en">English</option>
@@ -492,7 +492,7 @@ export default function Calculator() {
                   handleInputChange('crypto', e.target.value);
                   setCustomCrypto('');
                 }}
-                className="input"
+                className="tool-input"
               >
                 {CRYPTOCURRENCIES.map((c) => (
                   <option key={c.symbol} value={c.symbol}>
@@ -507,7 +507,7 @@ export default function Calculator() {
                   placeholder={t.enterCustom}
                   value={customCrypto}
                   onChange={(e) => setCustomCrypto(e.target.value)}
-                  className="input mt-2"
+                  className="tool-input mt-2"
                 />
               )}
             </div>
@@ -523,7 +523,7 @@ export default function Calculator() {
                 onChange={(e) =>
                   handleInputChange('buyPrice', e.target.value)
                 }
-                className="input"
+                className="tool-input"
                 step="0.01"
               />
             </div>
@@ -539,7 +539,7 @@ export default function Calculator() {
                 onChange={(e) =>
                   handleInputChange('sellPrice', e.target.value)
                 }
-                className="input"
+                className="tool-input"
                 step="0.01"
               />
             </div>
@@ -555,7 +555,7 @@ export default function Calculator() {
                 onChange={(e) =>
                   handleInputChange('investmentAmount', e.target.value)
                 }
-                className="input"
+                className="tool-input"
                 step="0.01"
               />
             </div>
@@ -571,7 +571,7 @@ export default function Calculator() {
                 onChange={(e) =>
                   handleInputChange('quantity', e.target.value)
                 }
-                className="input"
+                className="tool-input"
                 step="0.00000001"
               />
             </div>
@@ -587,7 +587,7 @@ export default function Calculator() {
                 onChange={(e) =>
                   handleInputChange('feePercentage', e.target.value)
                 }
-                className="input"
+                className="tool-input"
                 step="0.01"
               />
             </div>
@@ -653,7 +653,7 @@ export default function Calculator() {
               </div>
             </div>
 
-            <div className="mt-6 bg-gradient-to-r from-[#7c5cbf] to-[#b49ee8] rounded-xl p-6 text-[#191F28]">
+            <div className="mt-6 bg-gradient-to-r from-[#7c5cbf] to-[#b49ee8] rounded-xl p-6 text-white">
               <p className="text-sm opacity-90 mb-2">{t.netProfit}</p>
               <p className="text-4xl font-extrabold">${results.netProfit}</p>
             </div>
